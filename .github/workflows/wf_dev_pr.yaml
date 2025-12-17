@@ -1,0 +1,14 @@
+name: alamgir
+on: 
+  pull_request:
+    branches:
+      - develop
+jobs:
+  cafe_waiter_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome Scholars
+        run: echo "Sajid is the best"
+        
+
+    
